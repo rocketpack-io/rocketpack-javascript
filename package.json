@@ -1,8 +1,9 @@
 {
-  "name": "rocketpack",
+  "name": "@rocketpack.io/rocketpack",
   "version": "1.0.0",
   "description": "Javascript Client for Rocket Pack Cloud Services",
   "main": "dist/rocketpack.js",
+  "files": [ "dist" ],
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
     "dev": "cross-env NODE_ENV=development webpack --progress --colors --watch"
@@ -17,7 +18,10 @@
   "homepage": "https://www.rocketpack.ir",
   "keywords": [ "cloud", "baas" ],
   "author": "Rocket Pack Cloud Service",
-  "license": "ISC",
+  "contributors": [
+    "Mostafa Rowghanian <mostafatech@gmail.com>"
+  ],
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0"
   },
