@@ -1,13 +1,22 @@
 {
   "name": "rocketpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "Javascript Client for Rocket Pack Cloud Services",
+  "main": "dist/rocketpack.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
     "dev": "cross-env NODE_ENV=development webpack --progress --colors --watch"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocketpack-ir/rocketpack-javascript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rocketpack-ir/rocketpack-javascript/issues"
+  },
+  "homepage": "https://www.rocketpack.ir",
+  "keywords": [ "cloud", "baas" ],
+  "author": "Rocket Pack Cloud Service",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0"
