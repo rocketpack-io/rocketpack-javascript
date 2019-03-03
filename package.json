@@ -1,7 +1,7 @@
 {
   "name": "rocketpack.io",
   "version": "0.0.0",
-  "description": "Javascript Client for Rocket Pack Cloud Services",
+  "description": "Javascript Client for Rocket Pack Services",
   "main": "dist/rocketpack.js",
   "files": [
     "dist"
@@ -12,17 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rocketpack-ir/rocketpack-javascript.git"
+    "url": "git+https://github.com/rocketpack-io/rocketpack-javascript.git"
   },
   "bugs": {
-    "url": "https://github.com/rocketpack-ir/rocketpack-javascript/issues"
+    "url": "https://github.com/rocketpack-io/rocketpack-javascript/issues"
   },
-  "homepage": "https://www.rocketpack.ir",
-  "keywords": [
-    "cloud",
-    "baas"
-  ],
-  "author": "Rocket Pack Cloud Service",
+  "homepage": "https://www.rocketpack.io",
+  "keywords": [ "cloud", "baas", "backend", "backend as a service", "javascript client" ],
+  "author": "Rocket Pack Cloud Services Team",
   "contributors": [
     "Mostafa Rowghanian <mostafatech@gmail.com>"
   ],
