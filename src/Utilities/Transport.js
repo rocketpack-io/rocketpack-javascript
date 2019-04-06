@@ -6,12 +6,25 @@ const Transport = {
     axios.defaults.baseURL = baseURL;
   },
 
+  addDefaultHeader(key, value) {
+    axios.defaults.headers.common[key] = value
+  },
+  removeDefaultHeader(key) {
+    delete axios.defaults.headers.common[key]
+  },
+  
+  //-------------------------------------------------
+
   get(resource) {
     return axios.get(resource)
   },
 
   post(resource, data) {
-    return axios.post(resource, data)
+    return axios.post(resource, data, {
+      headers: {
+        'Content-Type': 'text/plain'
+      }
+    })
   },
 
   put(resource, data) {

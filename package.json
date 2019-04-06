@@ -18,7 +18,13 @@
     "url": "https://github.com/rocketpack-io/rocketpack-javascript/issues"
   },
   "homepage": "https://www.rocketpack.io",
-  "keywords": [ "cloud", "baas", "backend", "backend as a service", "javascript client" ],
+  "keywords": [
+    "cloud",
+    "baas",
+    "backend",
+    "backend as a service",
+    "javascript client"
+  ],
   "author": "Rocket Pack Cloud Services Team",
   "contributors": [
     "Mostafa Rowghanian <mostafatech@gmail.com>"
@@ -30,7 +36,7 @@
   "devDependencies": {
     "babel": "6.3.13",
     "babel-core": "6.1.18",
-    "babel-eslint": "4.1.3",
+    "babel-eslint": "^4.1.7",
     "babel-loader": "6.1.0",
     "babel-plugin-add-module-exports": "0.1.2",
     "babel-preset-es2015": "6.3.13",

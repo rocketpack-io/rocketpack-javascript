@@ -2,26 +2,35 @@
 import Transport from '~/Utilities/Transport'
 import DataService from '~/DataService'
 
-// transport layer configuration
-Transport.init('https://localhost:44377/')
-
 class Core {
-    // configurations = {
-    //     key: ''
-    // };
-
     constructor() {
         this.configurations = {
+            apiBasePath: 'http://api.rocketpack.io/',
             key: ''
         };
     };
 
     init(config) {
         this.configurations = Object.assign(this.configurations, config);
+
+        // transport layer configuration
+        Transport.init(this.configurations.apiBasePath);
+
+        // use this content-type because of preventing preflight requests
+        //Transport.addDefaultHeader('Content-Type', 'text/plain');
     }
 
     dataService() {
         return new DataService()
+    }
+
+    fetchSampleData() {
+        return Transport.post('api/data/values')
+    }
+
+    sayHello() {
+        var p = { name: 'mostafa', family: 'rowghanian' }
+        return Transport.post('api/data/sayHello', p);
     }
 }
 export default new Core();

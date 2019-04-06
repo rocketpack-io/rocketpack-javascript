@@ -5,7 +5,6 @@ export default class Collection {
 
     constructor(name) {
         this.collectionName = name;
-        console.log('collection created: ' + this.collectionName)
     }
 
     find() {
