@@ -21,9 +21,9 @@ const Transport = {
 
   post(resource, data) {
     return axios.post(resource, data, {
-      headers: {
-        'Content-Type': 'text/plain'
-      }
+      // headers: {
+      //   'Content-Type': 'text/plain'
+      // }
     })
   },
 

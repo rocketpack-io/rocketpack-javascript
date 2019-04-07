@@ -5,7 +5,7 @@ import DataService from '~/DataService'
 class Core {
     constructor() {
         this.configurations = {
-            apiBasePath: 'http://api.rocketpack.io/',
+            apiBasePath: 'https://api.rocketpack.io/',
             key: ''
         };
     };
