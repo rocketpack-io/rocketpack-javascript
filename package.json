@@ -1,6 +1,6 @@
 {
   "name": "rocketpack.io",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Javascript Client for Rocket Pack Services",
   "main": "dist/rocketpack.js",
   "files": [
