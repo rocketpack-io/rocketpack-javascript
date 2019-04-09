@@ -4,13 +4,13 @@ Javascript Client for Rocket Pack Cloud Services
 ### Installation
 
 ```shell
-$ npm install rocketpack.io --save
+$ npm install rocketpack --save
 ```
 
 ### Initialization
 
 ```javascript
-import rocketpack from 'rocketpack.io'
+import rocketpack from 'rocketpack'
 rocketpack.init({ key: 'YOUR-PROJECT-KEY' })
 ```
 
@@ -35,3 +35,6 @@ function registerUser(username, password, metadata) {
   })
 }
 ```
+
+## Thanks
+Thanks a lot to [@cpojer](https://github.com/cpojer) for his kindness for transfering the ownership of the `rocketpack` npm package.
