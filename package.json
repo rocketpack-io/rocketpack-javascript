@@ -1,7 +1,7 @@
 {
   "name": "rocketpack",
   "version": "0.0.1",
-  "description": "Javascript Client for Rocket Pack Services",
+  "description": "Javascript SDK for Rocket Pack Services",
   "main": "dist/rocketpack.js",
   "files": [
     "dist"
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rocketpack-io/rocketpack-javascript.git"
+    "url": "git+https://github.com/rocketpack-io/rocketpack-sdk-js.git"
   },
   "bugs": {
-    "url": "https://github.com/rocketpack-io/rocketpack-javascript/issues"
+    "url": "https://github.com/rocketpack-io/rocketpack-sdk-js/issues"
   },
   "homepage": "https://www.rocketpack.io",
   "keywords": [

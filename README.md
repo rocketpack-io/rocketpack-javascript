@@ -1,5 +1,7 @@
-# rocketpack-javascript
-Javascript Client for Rocket Pack Cloud Services
+# rocketpack-sdk-js
+Javascript SDK for Rocket Pack Services
+
+## Quick Start
 
 ### Installation
 
