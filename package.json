@@ -1,6 +1,6 @@
 {
   "name": "rocketpack",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Javascript SDK for Rocket Pack Services",
   "main": "dist/rocketpack.js",
   "files": [
